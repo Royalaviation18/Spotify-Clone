@@ -1,0 +1,41 @@
+[versions]
+agp = "8.3.1"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+activity = "1.8.2"
+constraintlayout = "2.1.4"
+lifecycle_viewmodel_ktx = "2.4.0"
+lifecycle-extensions = " 2.2.0"
+lifecycle-livedata_ktx = " 2.2.0"
+lifecycle-runtime = " 2.2.0"
+lifecycle-runtime-ktx = " 2.2.0"
+lifecycle-viewmodel-ktx = "2.7.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle = { group = "androidx.lifecycle", name = "lifecycle", version.ref = "lifecycle_viewmodel_ktx" }
+androidx-lifecycle-extensions = { group = "androidx.lifecycle", name = "extensions", version.ref = "lifecycle-extensions" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "livedata-ktx", version.ref = "lifecycle-livedata_ktx" }
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "livedata-runtime", version.ref = "lifecycle-runtime" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "livedata-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-viewmodel-ktx = {group="androidx.lifecycle",name="lifecycle-viewmodel-ktx",version.ref="lifecycle-viewmodel-ktx"}
+
+
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
