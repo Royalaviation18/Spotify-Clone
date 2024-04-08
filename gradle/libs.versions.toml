@@ -19,6 +19,13 @@ navigation-fragment-ktx = "2.7.7"
 navigation-ui-ktx = "2.7.7"
 glide-version = "4.11.0"
 compiler-version = "4.11.0"
+activity-ktx = "1.8.2"
+hilt-android = "2.28-alpha"
+lifecycle-viewmodel = "1.0.0-alpha02"
+timber-version = "4.7.1"
+exoplayer-core = "2.11.8"
+exoplayer-ui = "2.11.8"
+exoplayer-mediasession = "2.11.8"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -35,11 +42,21 @@ androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "liveda
 androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "livedata-runtime", version.ref = "lifecycle-runtime" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "livedata-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
 androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
-androidx-navigation-fragment-ktx = {group="androidx.navigation", name="navigation-fragment-ktx",version.ref="navigation-fragment-ktx"}
-androidx-navigation-ui-ktx = {group="androidx.navigation",name="navigation-ui-ktx",version.ref="navigation-ui-ktx"}
-glide = {group="com.github.bumptech.glide",name="glide",version.ref="glide-version"}
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation-ui-ktx" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide-version" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity-ktx" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-android" }
+hilt-lifecycle = { group = "androidx.hilt", name = "hilt-lifecyle", version.ref = "lifecycle-viewmodel" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber-version" }
+exoplayer-core = { group = "com.google.android.exoplayer", name = "exoplayer-core", version.ref = "exoplayer-core" }
+exoplayer-ui = { group = "com.google.android.exoplayer", name = "exoplayer-ui", version.ref = "exoplayer-ui" }
+exoplayer-mediasession = { group = "com.google.android.exoplayer", name = "exoplayer-muxer", version.ref = "exoplayer-mediasession" }
+
+
+
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kapt = {id = "com.github.bumptech.glide",version.ref="compiler-version"}
+kapt = { id = "com.github.bumptech.glide", version.ref = "compiler-version" }

@@ -68,6 +68,20 @@ dependencies {
     //Glide
     implementation(libs.glide)
 
+    //Activity KTX for viewModels()
+    implementation(libs.androidx.activity.ktx)
+
+    //Dagger - Hilt
+    implementation(libs.hilt.android)
+    implementation(libs.hilt.lifecycle)
+
+    //Timber
+    implementation(libs.timber)
+
+    //Exoplayer
+    implementation(libs.exoplayer.core)
+    implementation(libs.exoplayer.ui)
+    implementation(libs.exoplayer.mediasession)
 
 
 }
